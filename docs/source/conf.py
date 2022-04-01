@@ -18,8 +18,8 @@ import nbsphinx
 sys.path.insert(0, os.path.abspath('.'))
 
 
-project = 'cwbplot'
-copyright = '2021, CCLiu'
+project = 'tahope'
+copyright = '2022, CCLiu'
 author = 'CCLiu'
 
 # The full version, including alpha/beta/rc tags
@@ -60,7 +60,7 @@ html_theme = "pydata_sphinx_theme"
 #html_theme = "sphinx_book_theme"
 #html_title = "My site title"
 #html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-html_logo = './image/cwbrfs-logos_transparent-cut.png'
+#html_logo = './image/cwbrfs-logos_transparent-cut.png'
 
 
 html_theme_options = {
@@ -69,7 +69,7 @@ html_theme_options = {
             # Label for this link
             "name": "GitHub",
             # URL where the link will redirect
-            "url": "https://github.com/Liu-CWB/cwbplot/tree/master",  # required
+            "url": "https://github.com/Liu-CWB/tahope",  # required
             # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
             "icon": "fab fa-github-square",
             # Whether icon should be a FontAwesome class, or a local file
