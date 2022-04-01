@@ -30,7 +30,7 @@ The purpose of this documentaion is to demonstrat how to process data.
     ---
     :img-top: image/tree_structrued_DIR.jpg
     ++++
-    .. link-button:: image/tree_structrued_DIR.jpg
+    .. link-button:: example/DIR_PATH
         :type: ref
         :text: Data storage path
         :classes: btn-outline-dark btn-block stretched-link
