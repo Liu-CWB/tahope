@@ -32,7 +32,7 @@ The purpose of this documentaion is to demonstrat how to process data.
     ++++
     .. link-button:: example/DIR_PATH
         :type: ref
-        :text: Data storage path
+        :text: Each data path
         :classes: btn-outline-dark btn-block stretched-link
 
 
