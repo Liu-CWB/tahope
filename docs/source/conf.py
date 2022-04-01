@@ -86,6 +86,9 @@ html_theme_options = {
     },
 }
 
+##############################################
+#IFRAM CWB website, turn on "cwboffweb.html"##
+##############################################
 html_sidebars = {
     "index": [
         #'search-field.html',
@@ -93,7 +96,7 @@ html_sidebars = {
         #"sidebar_versions.html",
         #"cheatsheet_sidebar.html",
         #"donate_sidebar.html",
-        "cwboffweb.html",
+        #"cwboffweb.html",
     ],
     # '**': ['localtoc.html', 'pagesource.html']
 }
