@@ -1,0 +1,47 @@
+
+
+/* CWB RFS header color */
+/.bg-unidata {
+/    background-color: #187AC8;
+/}
+
+
+.navbar-light {
+    background: rgb(45 52 110) !important;
+    box-shadow: inset 0px 0px 0.2rem 0px #0f00ff;
+}
+
+/* Override the default color set in the original theme */
+/*.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}*/
+
+
+.navbar-light .navbar-nav li a.nav-link {
+    padding: 0 1.2rem;
+    color: #fff;
+}
+
+
+.navbar-light .navbar-nav li a.nav-link:hover {
+    color: rgb(255, 162, 105);
+}
+
+
+.navbar-nav>.active>.nav-link {
+    color: rgb(232 113 33) !important;
+    font-weight: 500 !important;
+}
+
+
+.fa-github-square:before {
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-weight: 400 !important;
+}
+
+body {
+
+    background-color: rgb(252 255 252);
+
+}
+
