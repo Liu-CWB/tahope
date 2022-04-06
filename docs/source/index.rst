@@ -9,8 +9,10 @@
 **About**
 
 Taiwan-Area Heavy rainfall Observation and Prediction Experiment, TAHOPE.
-During the experiment period, large volumes and a wide variety of data are supplied to the users.
-The purpose of this documentaion is to demonstrat how to process data.
+
+During the experiment period, large volumes and a wide variety of data are supplied to the attendance.
+
+The purpose of this documentaion is to demonstrate how to process and visualiza these data.
 
 
 .. panels::
