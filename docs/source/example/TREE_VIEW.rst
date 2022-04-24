@@ -12,7 +12,7 @@ Each data path on TAHOPE OBS data server.
    <body>
 
    <h1>The iframe element</h1>
-   <iframe src="../_static/20220424.html"></iframe>
+   <iframe src="../_static/20220424.html" width="120" height="180"></iframe>
    </body>
    </html>
 
