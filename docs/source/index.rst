@@ -32,7 +32,7 @@ The purpose of this documentaion is to demonstrate how to process and visualiza 
     ---
     :img-top: image/tree_structrued_DIR.jpg
     ++++
-    .. link-button:: example/DIR_PATH
+    .. link-button:: example/TREE_VIEW
         :type: ref
         :text: Each data path
         :classes: btn-outline-dark btn-block stretched-link
