@@ -25,7 +25,7 @@ $(function() {
     maxDate: "08/31/2022"
   }, function(start, end, label) {
     var yyyymmdd = start.format('YYYYMMDD');
-    document.getElementById("dirlog").src ="../" + yyyymmdd + ".html" ;
+    document.getElementById("dirlog").src = yyyymmdd + ".html" ;
   });
 });
 
@@ -39,7 +39,7 @@ function defaultpage(){
         } else  {
             var ymd = `${year}${month}${day}`;
         };
-	document.getElementById("dirlog").src ="../" + ymd + ".html" ;
+	document.getElementById("dirlog").src = ymd + ".html" ;
 };
 window.onload=defaultpage;
 
