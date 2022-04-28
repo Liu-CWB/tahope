@@ -16,6 +16,10 @@
     color: #fff;
 }*/
 
+.navbar-light .navbar-brand {
+    color: rgb(44 100 62)
+}
+
 
 .navbar-light .navbar-nav li a.nav-link {
     padding: 0 1.2rem;
