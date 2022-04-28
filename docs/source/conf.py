@@ -18,7 +18,7 @@ import nbsphinx
 sys.path.insert(0, os.path.abspath('.'))
 
 
-project = 'tahope'
+project = 'TAHOPE'
 copyright = '2022, CCLiu'
 author = 'CCLiu'
 
@@ -54,8 +54,8 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
-html_theme = "sphinx_rtd_theme"
+#html_theme = 'alabaster'
+#html_theme = "sphinx_rtd_theme"
 html_theme = "pydata_sphinx_theme"
 #html_theme = "sphinx_book_theme"
 html_title = "TAHOPE"
@@ -108,3 +108,5 @@ html_sidebars = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_css_files = ['theme-cwbrfs.css']
+
+html_extra_path = ['document']
