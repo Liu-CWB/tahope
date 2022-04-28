@@ -8,6 +8,6 @@ SURFACE DATA DOCUMENT
    <!DOCTYPE html>
    <html>
    <body>
-   <iframe src="../document/surf_all_mdf.pdf" width="100%" height="1000"></iframe>
+   <object data="../document/surf_all_mdf.pdf" width="100%" height="1000"></object>
    </body>
    </html>
