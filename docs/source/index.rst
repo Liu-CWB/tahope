@@ -34,17 +34,16 @@ The purpose of this documentaion is to demonstrate how to process and visualiza 
     ++++
     .. link-button:: example/TREE_VIEW
         :type: ref
-        :text: Each data path
+        :text: Directory tree view
         :classes: btn-outline-dark btn-block stretched-link
 
     ---
     :img-top: image/Documentofdata.jpg
     ++++
     .. link-button:: example/DATA_DOCUMENT
-               :type: ref
-        :text: Each data path
+        :type: ref
+        :text: Document of each data
         :classes: btn-outline-dark btn-block stretched-link
-
 
 
 What's news
