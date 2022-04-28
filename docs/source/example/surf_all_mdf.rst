@@ -3,11 +3,8 @@ SURFACE DATA DOCUMENT
 
 ^^^^^
 
-.. raw:: html
+.. important::
 
-   <!DOCTYPE html>
-   <html>
-   <body>
-   <iframe src="surf_all_mdf.pdf" height="1000" width="100%"></iframe>
-   </body>
-   </html>
+   
+   "../document/surf_all_mdf.pdf"
+   
