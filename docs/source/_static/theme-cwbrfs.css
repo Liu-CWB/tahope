@@ -51,5 +51,7 @@ body {
 
 
 .title {
-  color: aliceblue  
+  color: aliceblue;  
+  margin-top: 0.2em;
+  font-size: x-large;
 }
