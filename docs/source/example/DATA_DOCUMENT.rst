@@ -10,7 +10,7 @@ LIGHTNING
 
 SOUNDING
 
-** `The sounding data format(.lit) document <https://tahope.readthedocs.io/en/latest/example/sounding_dat.html>`_ **
+** `The sounding data format(.dat) document <https://tahope.readthedocs.io/en/latest/example/sounding_dat.html>`_ **
 
 
 SURFACE
