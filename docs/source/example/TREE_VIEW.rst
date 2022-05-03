@@ -16,3 +16,11 @@ TAHOPE OBS data tree view.
    </body>
    </html>
 
+
+
+^^^^^
+
+
+The details of each data log:
+
+https://cwb-liu.github.io/datalog.html
