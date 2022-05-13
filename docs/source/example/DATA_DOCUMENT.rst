@@ -21,3 +21,8 @@ SURFACE
 WIND PROFILER
 
 ** `The wind profiler data format(.asd) document <https://tahope.readthedocs.io/en/latest/example/windpro_asd.html>`_ **
+
+
+DISTROMETER
+
+** `The distrometer data format document <https://tahope.readthedocs.io/en/latest/example/distro.html>`_ **
