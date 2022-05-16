@@ -9,6 +9,9 @@ TAHOPE OBS data tree view.
    
    <!DOCTYPE html>
    <html>
+     <head>
+       <meta http-equiv="Cache-Control" content="no-cache">
+     </head>
    <body>
 
    <h1>The data path and data state</h1>
