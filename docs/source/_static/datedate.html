@@ -41,7 +41,8 @@ function defaultpage(){
         } else  {
             var ymd = `${year}${month}${day}`;
         };
-	document.getElementById("dirlog").src = ymd + ".html" ;
+     var rand = Math.floor((Math.random()*1000000)+1);
+	document.getElementById("dirlog").src = ymd + ".html?uid"+rand ;
 };
 window.onload=defaultpage;
 
