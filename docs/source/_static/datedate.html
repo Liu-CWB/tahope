@@ -26,7 +26,8 @@ $(function() {
     maxDate: "08/31/2022"
   }, function(start, end, label) {
     var yyyymmdd = start.format('YYYYMMDD');
-    document.getElementById("dirlog").src = yyyymmdd + ".html" ;
+    var rand = Math.floor((Math.random()*1000000)+1);
+    document.getElementById("dirlog").src = yyyymmdd + ".html?uid"+rand ;
   });
 });
 
