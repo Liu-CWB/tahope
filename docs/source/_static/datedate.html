@@ -28,7 +28,6 @@ $(function() {
     var yyyymmdd = start.format('YYYYMMDD');
     var rand = Math.floor((Math.random()*1000000)+1);
     document.getElementById("dirlog").src = yyyymmdd + ".html" ;
-    document.getElementById("dirlog").contentWindow.location.reload(true);
   });
 });
 
@@ -45,6 +44,9 @@ function defaultpage(){
      var rand = Math.floor((Math.random()*1000000)+1);
 	document.getElementById("dirlog").src = ymd + ".html" ;
 };
+
+
+
 window.onload=defaultpage;
 
 </script>
@@ -52,5 +54,15 @@ window.onload=defaultpage;
 <font size="5">Date</font> <input class="heighttext" type="text" name="thp" size="10"/> 
 <br></br>
 <iframe id="dirlog" src="" width="100%" height="800" frameBorder="0"></iframe>
+
+<script>
+window.setInterval(function() {
+            reloadIFrame()
+        }, 1);
+function reloadIFrame() {
+       document.getElementById('dirlog').contentWindow.location.reload();
+        };
+</script>
+
 <body>
 </html>
