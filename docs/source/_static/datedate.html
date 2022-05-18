@@ -55,22 +55,14 @@ window.onload=defaultpage;
 <br></br>
 <iframe id="dirlog" src="" width="100%" height="800" frameBorder="0"></iframe>
 
-
 <script>
-    var frameElement = document.getElementById("dirlog");
-    frameElement.contentWindow.location.href = frameElement.src;
-</script>
-
-
-
-<!--<script>-->
-<!--window.setInterval(function() {
+window.setInterval(function() {
             reloadIFrame()
         }, 10000);
 function reloadIFrame() {
        document.getElementById('dirlog').contentWindow.location.reload();
         };
-</script>-->
+</script>
 
 <body>
 </html>
