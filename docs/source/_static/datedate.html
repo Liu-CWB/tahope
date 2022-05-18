@@ -27,7 +27,8 @@ $(function() {
   }, function(start, end, label) {
     var yyyymmdd = start.format('YYYYMMDD');
     var rand = Math.floor((Math.random()*1000000)+1);
-    document.getElementById("dirlog").src = yyyymmdd + ".html?uid"+rand ;
+    document.getElementById("dirlog").src = yyyymmdd + ".html" ;
+    window.navigate(yyyymmdd + ".html");
   });
 });
 
