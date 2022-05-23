@@ -21,7 +21,7 @@ For more information about the weather radar network in Taiwna, an article `An O
 Table 1. Radara name, variables and data format
 
 
-.. list-table:: The radar name, variables and data format
+.. list-table::
    :widths: auto
    :header-rows: 1
 
@@ -78,7 +78,7 @@ Table 2. Processed data
    :header-rows: 1
    
    * - Categorey
-     - File name
+     - File naming convention
      - Data format
    * - MOSAIC2D
      - COMPREF.yyyymmdd.HHMM.gz
