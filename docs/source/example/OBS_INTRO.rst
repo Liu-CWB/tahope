@@ -1,85 +1,42 @@
 
 
-Brief introduction of radar data
-=================================
+Briefder introduction of TAHOPE observations
+===========================================
+
+The spatial distribution of observation instruments are around Taiwan (Fig 1.).
+
+The part of observation raw and processing data are supplid from Central Weather Bureau(CWB).
 
 
 
-.. figure:: ../image/twradar.jpg
-   :width: 400
+.. figure:: ../image/TAHOPE_Basemap.jpg
+   :width: 200
    :align: center
 
-The weather radar network in Taiwan (`Reference <https://journals.ametsoc.org/view/journals/bams/102/3/BAMS-D-20-0043.1.xml>`_)
-
-
-
-During TAHOPE, CWB supply raw radar data and processed radar data.
-
-
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. list-table:: The radar name, variables and data format
-   :widths: auto
-   :header-rows: 1
-
-   * - Radar name
-     - Variables
-     - File name
-     - Data format
-     - Frequecy (Minute)
-   * - RCWF
-     - -
-     - yyyymmdd_HHMM_RCWF_VOL.^\d{3}.gz
-     - NEXRED
-     - < 10 
-   * - RCGI
-     - dBuZ, dBZ, KDP, PhiDP, RhoHV, uPhiDP, V, W, ZDR
-     - yyyymmddHHMMSS00$Variables.vol
-     - Rainbow 5
-     - < 10
-   * - RCLY
-     - dBuZ, dBZ, dBZv, KDP, PhiDP, RhoHV, SNR, uPhiDP, V, W, ZDR
-     - yyyymmddHHMMSS00$Variables.vol
-     - Rainbow 5
-     - < 10
-   * - RCCK, RCMK
-     - dBuZ, dBZ, KDP, PhiDP, RhoHV, uKDP, uPhiDP, V, W, ZDR
-     - yyyymmddHHMMSS00$Variables.vol
-     - Rainbow 5
-     - < 10
-   * - RCMD, RCNT, RCSL
-     - dBuZ, dBZ, KDP, PhiDP, RhoHV, SNR, SQI, uPhiDP, V, W, ZDR
-     - yyyymmddHHMMSS00$Variables.vol
-     - Rainbow 5
-     - < 10
-   * - RCCG, RCHL, RCKT
-     - dBZ, V, W
-     - yyyymmddHHMMSS00$Variables.vol
-     - Rainbow 5
-     - < 10
-
-
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. list-table:: Radar Processing data
-   :widths: 33 33 33
-   :header-rows: 1
-   
-   * - Categorey
-     - File name
-     - Data format
-   * - MOSAIC2D
-     - COMPREF.yyyymmdd.HHMM.gz
-     - self define
-   * - MOSAIC3D
-     - MREF3D21L.yyyymmdd.HHMM.gz
-     - self define
-   * - QPE1HR
-     - CB_GC_PCP_1H_RAD.yyyymmdd.HHMM.gz
-     - self define
+Fig 1. Observations location for TAHOPE 2022 (`Reference <http://140.137.32.27/exp/yesr2022/report/TAHOPE_Basemap.html>`_)
 
 
 
 
-
++------------------------+------------+----------+----------+
+| Observation Instrument | Variables  | Frequency| Note     |
+|                        |            |          |          |
++========================+============+==========+==========+
+| Satellite              | Infrared, Visible  | Taiwan area: 10  | column 4 |
+|                        |                    | East Asia: 30    |          |
++------------------------+------------+----------+----------+q
+| Radar(Raw)             | dBuZ, dBZ, KDP, PhiDP, RhoHV, SNR, SQI, uPhiDP, V, W, ZDR  |   <  10    |          |
++------------------------+------------+---------------------+
+| Radar(Processed)       | Mosaic 2D, Mosaic 3D, QPE 1 hour |   |     |
++------------------------+------------+----------+----------+
+| Disdrometer            |  Particle Size, Particle speed, Rainrate intensity  |        |   |
++------------------------+------------+---------------------+
+| Sounding               |            |          |          |
++------------------------+------------+---------------------+
+| Surface                |            |                     |
++------------------------+------------+---------------------+
+| Wind profiler          |            |                     |
++------------------------+------------+---------------------+
+| Lightning              | Inner Cloud, Cloud to Ground, Flash Time  |                     |  |
++------------------------+------------+---------------------+
 
