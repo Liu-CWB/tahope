@@ -69,7 +69,8 @@ Table 1. Radara name, variables and data format
      - < 10
 
 
-++++++++++++++++++++++++
++++++++++++++++++++++++++
+
 Table 2. Processed data
 
 .. list-table:: 
