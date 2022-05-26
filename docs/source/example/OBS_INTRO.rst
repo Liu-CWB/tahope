@@ -1,12 +1,9 @@
 
 
 Briefder introduction of TAHOPE observations
-===========================================
+=============================================
 
-The spatial distribution of observation instruments are around Taiwan (Fig 1).
-
-The part of observation raw and processed data are supplid by Central Weather Bureau (Table 1).
-
+The spatial distribution of observation instruments (Fig 1), part of observation raw and processed data are supplid by Central Weather Bureau (Table 1).
 
 
 .. figure:: ../image/TAHOPE_Basemap.jpg
@@ -28,8 +25,10 @@ Tabel 1. The brief infomation of data supplied by Central Weather Bureau.
 | Satellite              | Infrared, Visible                | Taiwan area: 10  |          |
 |                        |                                  | East Asia: 30    |          |
 +------------------------+----------------------------------+------------------+----------+
-| Radar(Raw)             | dBuZ, dBZ, KDP, PhiDP, RhoHV,    |   <  10          |          |
+| Radar C band (Raw)     | dBuZ, dBZ, KDP, PhiDP, RhoHV,    |   <  10          |          |
 |                        | SNR, SQI, uPhiDP, V, W, ZDR      |                  |          |
++------------------------+----------------------------------+------------------+----------+
+| Radar S band (Raw)     | dBZ, V, W, ....                  |   < 10           |          |
 +------------------------+----------------------------------+------------------+----------+
 | Radar(Processed)       | Mosaic 2D, Mosaic 3D, QPE 1 hour |                  |          |
 +------------------------+----------------------------------+------------------+----------+
